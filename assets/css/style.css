@@ -1,0 +1,72 @@
+html,
+
+body {
+    text-align: center;
+    background-image: url("../images/mazda-vision.jpg");
+    height: 100%;
+    font-family: 'Pangolin', serif;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+button {
+    border-radius: 50%;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin: 10px auto 0;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: gray;
+    border: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Spectral+SC, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: blue;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+button:hover {
+
+    background-color: #4CAF50;
+    border: 5px solid black;
+}
+
+#start {
+    margin-top: 10%;
+    background: gray;
+    border: 5px solid black;
+}
+
+#containerA {
+    width: 50%;
+    min-height: 80%;
+    box-sizing: border-box;
+    padding: 5% 0;
+    margin: 5% auto;
+    background-color: aqua;
+    border: 10px solid gray;
+}
+
+#child-containerA {
+    position: relative;
+    top: 20%;
+}
+
+#question-containerA h2 {
+    margin-top: 50px;
+}
