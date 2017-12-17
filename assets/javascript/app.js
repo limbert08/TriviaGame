@@ -36,6 +36,8 @@ var questionsArray = [{
 
 ];  //array
 
+var arrayWrongAnswers = [];
+
 // timer
 
 var timer;
@@ -87,6 +89,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Tennis");
       }
     });
 
@@ -96,6 +99,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Basketball");
       }
     });
 
@@ -105,6 +109,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Baseball");
       }
     });
 
@@ -114,6 +119,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Football");
       }
     });
 
@@ -123,6 +129,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Soccer");
       }
     });
 
@@ -132,6 +139,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Swimmer");
       }
     });
 
@@ -141,6 +149,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
+        arrayWrongAnswers.push("Runner");
       }
     });
 
@@ -157,6 +166,7 @@ var xGame = {    // parent
     panel.html("<h2>RESULTS:</h2>");
     panel.append("<h2>Correct Answers: " + this.correctAnswer + "</h2>");
     panel.append("<h2>Incorrect Answers: " + this.incorrectAnswer + "</h2>");
+    panel.append("<h2>Please correct your answer to question/s: " + arrayWrongAnswers + "</h2>");
     panel.append("<h2>No Answer/Blank: " + (questionsArray.length - (this.incorrectAnswer + this.correctAnswer)) + "</h2>");
   }  // result func
 
