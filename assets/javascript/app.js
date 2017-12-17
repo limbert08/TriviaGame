@@ -1,3 +1,5 @@
+//STAGE
+
 var panel = $("#question-containerA");
 
 // list of questions
@@ -42,7 +44,7 @@ var xGame = {    // parent
 
   correctAnswer: 0,
   incorrectAnswer: 0,
-  counter: 10,    // 60 second countdown clock
+  counter: 60,    // 60 second countdown clock
 
   myTimer: function() {
     xGame.counter--;
@@ -77,7 +79,9 @@ var xGame = {    // parent
 
   done: function() {   // check answers
 
-    ($("input[name='question-0']:checked"), function() {
+    //$( "div" ).each(function( index, element );
+
+    jQuery.each($("input[name='question-0']:checked"), function() {
       if ($(this).val() === questionsArray[0].rightResponse) {
         xGame.correctAnswer++;
       }
