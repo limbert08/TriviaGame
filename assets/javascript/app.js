@@ -44,7 +44,7 @@ var xGame = {    // parent
 
   correctAnswer: 0,
   incorrectAnswer: 0,
-  counter: 60,    // 60 second countdown clock
+  counter: 60,    // 60 second countdown clock  
 
   myTimer: function() {
     xGame.counter--;
