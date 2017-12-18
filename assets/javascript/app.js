@@ -89,7 +89,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Tennis");
+        arrayWrongAnswers.push("\"Tennis\"");
       }
     });
 
@@ -99,7 +99,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Basketball");
+        arrayWrongAnswers.push("\"Basketball\"");
       }
     });
 
@@ -109,7 +109,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Baseball");
+        arrayWrongAnswers.push("\"Baseball\"");
       }
     });
 
@@ -119,7 +119,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Football");
+        arrayWrongAnswers.push("\"Football\"");
       }
     });
 
@@ -129,7 +129,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Soccer");
+        arrayWrongAnswers.push("\"Soccer\"");
       }
     });
 
@@ -139,7 +139,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Swimmer");
+        arrayWrongAnswers.push("\"Swimmer\"");
       }
     });
 
@@ -149,7 +149,7 @@ var xGame = {    // parent
       }
       else {
         xGame.incorrectAnswer++;
-        arrayWrongAnswers.push("Runner");
+        arrayWrongAnswers.push("\"Runner\"");
       }
     });
 
